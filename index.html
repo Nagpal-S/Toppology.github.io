@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f393ae98ee.js" crossorigin="anonymous"></script><!--LOGOS-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"><!--paragrapgh font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,500&family=Rubik&display=swap" rel="stylesheet"><!--heading font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"><!--description heading-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"><!--description text-->
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <h1 class="logi">  .net  </h1>
+        </div>
+        <div class="head">
+        <h1> <span style="color: #00a8ff; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;"> net</span>working sector </h1>
+    </div>
+    </header>
+    <section style=" position: -webkit-sticky; position: sticky; top: 0; ">
+        <div class="nav">
+            <ul class="navul">  
+                <li><a href="" class="active">HOME</a></li>
+                <li><a href="">TUTORIAL</a></li>
+                <li><a href="">TEST</a></li>
+                <li><a href="">HTML</a></li>
+                <li>
+                    <input type="text" placeholder="search here" style="background: black; position: absolute; left: 62%; top: 15%; width: 300px; height: 35px; border-radius: 30px;" class="bar"> 
+                    <a class="sbtn" href=""> 
+                    <i class="fas fa-search" style="margin-left: -7px; margin-top: -3px;"></i> </a> </li>
+                <li style="float: right;"><a href="" style="border-right: none;">ABOUT US</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="outer">
+        <div class="types">
+            <div class="ttypes">
+                <a href="#bustopology">BUS TOPOLOGY</a>
+                <a href="#ringtopology">RING TOPOLOGY</a>
+                <a href="#startopology">STAR TOPOLOGY</a>
+                <a href="#meshtopology">MESH TOPOLOGY</a>
+                <a href="#treetopology">TREE TOPOLOGY</a>
+                <a href="#hybridtopology">HYBRID TOPOLOGY</a>
+                
+            </div>
+        </div>
+
+        <div class="text">
+            <h1 class="heading">types of network topology</h1>
+            <br>
+            <p class="innertext">Network Topology is the schematic description of a network arrangement, connecting various nodes (sender and receiver) through lines of connection.</p>
+        </div> 
+            <br><br><br>
+
+        <div  class="text">
+            <a name="bustopology"></a>
+            <h1 class="heading"> bus topology </h1><br>
+            <p class="innertext">Bus topology is a network type in which every computer and network device is connected to single      cable. When it has exactly two endpoints, then it is called <mark>BUS TOPOLOGY </mark>. </p>
+            <br>
+
+            <div class="image">
+            <img src="C:\Users\Shiva\OneDrive\Desktop\topology\pic1.png" alt=" bus topology">
+            </div>
+            <br>
+
+        <div>
+            <ul class="descriptionul">
+               <li> <h3>Features of Bus Toppology</h3></li>
+            <ol class="descriptionol"> 
+               <li>It transmits the data only in one direction.</li>
+               <li>Every device connected to a single cable.</li>
+            </ol>
+                <li> <h3>Advantages of Bus Topology</h3></li>
+            <ol class="descriptionol">
+                <li>It is cost effective.</li>
+                <li>Cable required is least comapared to other network topology. </li>
+                <li>Used in small networks.</li>
+                <li>It is easy to understand.</li>
+                <li>Esady two expand joining two cables together.</li>
+            </ol>
+                <li> <h3>Disadvantages of Bus Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Cables fail then whole network fails.</li>
+                <li>If network traffic is heavy or if the nodes are more the performance of the network decreases.</li>
+                <li>Cable has a limited length.</li>
+                <li>It is slower than the ring topology.</li>
+            </ol>
+            </ul>
+        </div>
+
+        </div>
+        <div class="text">
+            <a name="ringtopology"></a>
+            <h1 class="heading"> ring topology</h1><br>
+            <p class="innertext"> It is called <mark> RING TOPOLOGY</mark> because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbounrs for each device.  </p>
+            <br>
+
+            <div class="image" style="height: 400px;">
+            <img style="height: fit-content;" src="C:\Users\Shiva\OneDrive\Desktop\topology\pic2.png" alt=" bus topology">
+            </div>
+            <br>
+        <div>
+            <ul class="descriptionul">
+                <li> <h3>Features of Ring Toppology</h3></li>
+             <ol class="descriptionol"> 
+                <li>A number of repeaters are used for <mark> RING TOPOLOGY</mark> with large number of nodes, because if someone wnats to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. hence to prevent the data loss repeaters are used in the network. </li>
+                <li>The transmission is unidirectional, but it can be made bidirectional by having two connections between each network node, it called dual ring topology. </li>
+                <li>In dual ring topology, two ring networks are formed, and data flow is in opposite direction in them. also, if one of ring fails, the second ring can act as a backup, to keep the network up.   </li>
+                <li>Data is transferred in a sequential that is bit by bit. dta transmitted, has to pass throungh each node of the network, till the destination node.      </li>
+            </ol>
+            <li><h3>Advatanges of Ring Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Transmitting network is not affected by hight traffic or by adding more nodes, as only the nodes having tokens can be transmit data. </li> 
+                <li>Cheap to install and expand.</li>
+            </ol>
+            <li><h3>Disadvantes of Ring Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Troubleshooting is difficult in ring topology.</li>
+                <li>Adding or deleting the computer disturbs the network activity.</li>
+                <li>Failure of one computer disturbs the whole network.</li>
+            </ol>
+            </ul>
+        </div> 
+   
+        </div>
+
+        <div class="text">
+            <a name="startopology"></a>
+            <h1 class="heading"> star topology</h1><br>
+            <p class="innertext"> In this type of topology all the computers are connected to a single hub through a cable. this hub is the central node and all others node are connected to the central node.  </p>
+            <br>
+
+            <div class="image" style="height: 400px; padding-left: 127px;">
+            <img style="height: 379px; width: 700px;" src="C:\Users\Shiva\OneDrive\Desktop\topology\pic3.png" alt=" bus topology">
+            </div>
+            <br>
+
+        <div>
+            <ul class="descriptionul">
+                <li><h3>Features of Star Topology</h3></li>
+            <ol class="descriptionol"> 
+                <li>Every node has it's own dedicated connection to the hub.</li>
+                <li>Hub act as  repeater for data flow.</li>
+                <li>Can be used with twisted pair, Optical fibre or coaxile cable.</li>
+            </ol>
+                <li><h3>Advantages of Star Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Fast performancewith few nodes and low network traffic.</li>
+                <li>Hub can be upgraded easily.</li>
+                <li>Easy to troubleshoot.</li>
+                <li>Easy to setup and modify.</li>
+                <li>Only that node is affected which has failed, rest of the nodes can work smoothly.</li>
+            </ol> 
+                <li><h3>Disadvatages of Star Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Cost of installation is high.</li>
+                <li>Expensive to use.</li>
+                <li>If the hub fails then the whole network is stopped because all the nodes depend on the hub. </li>
+                <li>Performace is based on the hub that is depend on it's capacity.</li>
+            </ol>        
+            </ul>
+        </div>    
+        </div> 
+        
+        
+        <div class="text">
+            <a name="meshtopology"></a>
+            <h1 class="heading"> mesh topology</h1><br>
+            <p class="innertext">It is a point to point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has <mark style="color: red;"> n(n-1)/2</mark> physical channels to link <mark style="color: red;">n</mark> devices. </p>
+            <br>
+            <span>There are two techniques to transmit data over the <mark>MESH TOPOLOGY </mark>, they are 
+            <ol class="descriptionol">
+                <li>Routing</li>
+                <li>Flooding</li>
+            </ol>
+            </span>
+            <br>
+
+            <h1 class="heading" style="font-weight: lighter;">mesh Topology : routing</h1><br>
+            <p class="innertext">In routing the nodes have the routing logic, as per the network requirments. Like routing logic to direct the data to reach the destination using the shortest distance Or, routing logic which has information about the broken links, and it avoid those node etc. We can even have routing logic, to re-configure the failed network. </p>
+            <br>
+            <h1 class="heading" style="font-weight: lighter;">mesh topology : flooding</h1><br>
+            <p class="innertext">In flooding, the same data is transmitted to all the network nodes, hence no routing logic is required. The network is robust, and the it's very unlikely to lose the data. But it leads to unwanted load over the network.</p> <br>
+
+            <div class="image" style="height: 400px; padding-left: 127px;">
+            <img style="height: 379px; width: 700px;" src="C:\Users\Shiva\OneDrive\Desktop\topology\pic4.png" alt=" bus topology">
+            </div>
+            <br>
+
+            <ul class="descriptionul">
+                <li><h3>Types of Mesh Topology</h3></li>
+            <ol class="descriptionol">
+                <li><strong>PARTIAL MESH TOPOLOGY :</strong> In this topology some of the systems are connected in the same fashion as <mark>MESH TOPOLOGY</mark> but some devices are only connected to two or three devices.  </li>
+                <li><strong>FULL MESH TOPOLOGY : </strong> Each and every nodes or devices are connected to eaach other.</li> 
+            </ol>
+                <li><h3>Featuresof Mesh Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Fully connected.</li>
+                <li>Robust.</li>
+                <li>Not flexible.</li>
+            </ol>
+                <li><h3>Advantages of Mesh Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Each connection can carry it's own data load.</li>
+                <li>It is robust.</li>
+                <li>Fault is diagonosed easily.</li>
+                <li>Provides security and privacy.</li>
+            </ol> 
+                <li><h3>Disadvatages of Mesh Topology </h3></li>
+            <ol class="descriptionol">
+                <li>Installation and configuration is difficult.</li>
+                <li>Cabling cost is more.</li>
+                <li>Bulk wiring is required.</li>
+            </ol>                   
+            </ul>
+        </div>
+        <div class="text">
+            <a name="treetopology"></a>
+            <h1 class="heading"> tree topology</h1><br>
+            <p class="innertext"> It has a root node and all other nodes are connected to it forming a hierarchy It is also called <marK>HIERARCHICAL TOPOLOGY</mark>. It should atleast have three levels to the hierarchy.    </p>
+            <br>
+
+            <div class="image" style="height: 400px; padding-left: 127px;">
+            <img style="height: 379px; width: 700px;" src="C:\Users\Shiva\OneDrive\Desktop\topology\pic5.png" alt=" bus topology">
+            </div>
+            <br> 
+            <ul class="descriptionul">
+                <li><h3>Features of Mesh Topology</h3></li>
+            <ol class="descriptionol">  
+                <li>Ideal if workstation are located in group.</li>
+                <li>used in wide area network.</li>
+            </ol>
+                <li><h3>Advantages of Tree Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Extensions of bus and star toplogy.</li>
+                <li>Expansion of nodes is possible and easy.</li>
+                <li>Easily managed and maitained.</li>
+                <li>Error detection is easily done.</li>
+            </ol> 
+                <li><h3>Disadvantages of Tree Topology</h3></li>
+                <ol class="descriptionol">  
+                    <li>Havily cabled.</li>
+                    <li>Costly.</li>
+                    <li>If more nodes are added maintainance is difficult.</li>
+                    <li>Central hub fails, network fails.</li>
+                </ol>         
+            </ul> 
+        </div>
+
+        <div class="text">
+            <a name="hybridtopology"></a>
+            <h1 class="heading"> hybrid topology</h1><br>
+            <p class="innertext"> It is two different type of topologies which is a mixture of two or more topologies. For example if in an office one department ring topology is used and in another star topology is used, connecting these topologies will result in hybrid topology (ring topology and star topology)</p>
+            <br>
+
+            <div class="image" style="height: 450px; padding-left: 127px;">
+            <img style="height: 429px; width: 700px;" src="C:\Users\Shiva\OneDrive\Desktop\topology\pic6.png" alt=" bus topology">
+            </div>
+            <ul class="descriptionul">
+                <li><h3>Features of Hybrid Topology</h3></li>
+            <ol class="descriptionol"> 
+                <li>It is a combination of two or more topologies.</li>
+                <li>Inherits the advantages and disadvantages of the topologies included.</li>
+            </ol> 
+                <li><h3>Advatages of Hybrid Topology</h3></li>
+            <ol class="descriptionol">
+                <li>Reliable as error detecting and trouble shooting is easy.</li>
+                <li>Effective.</li>
+                <li>Scalable and size can be increased easily.</li>
+            </ol> 
+            <li><h3>Disadvantages of Hybrid Topology</h3></li>           
+            <ol class="descriptionol">
+                <li>Costly.</li>
+                <li>Complex in design.</li>
+            </ol>
+            </ul>
+       
+        </div>
+
+
+        <div class="footer"></div>
+
+
+        </div>
+        
+            <br>     
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
